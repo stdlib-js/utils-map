@@ -20,7 +20,7 @@ limitations under the License.
 
 # map
 
-[![NPM version][npm-image]][npm-url] <!-- [![dependencies][dependencies-image]][dependencies-url] -->
+[![NPM version][npm-image]][npm-url] [![Build Status][test-image]][test-url] [![Coverage Status][coverage-image]][coverage-url] <!-- [![dependencies][dependencies-image]][dependencies-url] -->
 
 > Apply a function to each element in an array and assign the result to an element in an output array.
 
