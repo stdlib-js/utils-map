@@ -23,7 +23,8 @@
   },
   "types": "./docs/types",
   "scripts": {
-    "examples": "make examples"
+    "examples": "make examples",
+    "benchmark": "make benchmark"
   },
   "homepage": "https://stdlib.io",
   "repository": {
@@ -42,11 +43,17 @@
     "@stdlib/ndarray-base-strides2offset": "^0.0.x",
     "@stdlib/ndarray-base-vind2bind": "^0.0.x",
     "@stdlib/ndarray-ctor": "^0.0.x",
+    "@stdlib/types": "^0.0.x",
     "@stdlib/utils-define-nonenumerable-read-only-property": "^0.0.x"
   },
   "devDependencies": {
+    "@stdlib/array-base-filled": "^0.0.x",
     "@stdlib/array-filled-by": "^0.0.x",
+    "@stdlib/assert-is-array": "^0.0.x",
+    "@stdlib/bench": "^0.0.x",
+    "@stdlib/math-base-special-abs": "^0.0.x",
     "@stdlib/math-base-special-abs2": "^0.0.x",
+    "@stdlib/math-base-special-pow": "^0.0.x",
     "@stdlib/ndarray-array": "^0.0.x",
     "@stdlib/random-base-discrete-uniform": "^0.0.x",
     "@stdlib/utils-nary-function": "^0.0.x"
