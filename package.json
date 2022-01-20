@@ -37,14 +37,14 @@
     "url": "https://github.com/stdlib-js/stdlib/issues"
   },
   "dependencies": {
+    "@stdlib/array-base-arraylike2object": "^0.0.x",
     "@stdlib/array-base-zeros": "^0.0.x",
     "@stdlib/assert-is-array-like-object": "^0.0.x",
     "@stdlib/assert-is-function": "^0.0.x",
     "@stdlib/assert-is-ndarray-like": "^0.0.x",
-    "@stdlib/ndarray-base-numel": "^0.0.x",
-    "@stdlib/ndarray-base-strides2offset": "^0.0.x",
+    "@stdlib/ndarray-base-ndarraylike2object": "^0.0.x",
     "@stdlib/ndarray-base-vind2bind": "^0.0.x",
-    "@stdlib/ndarray-ctor": "^0.0.x",
+    "@stdlib/ndarray-zeros": "^0.0.x",
     "@stdlib/types": "^0.0.x",
     "@stdlib/utils-define-nonenumerable-read-only-property": "^0.0.x"
   },
@@ -62,6 +62,7 @@
     "@stdlib/math-base-special-abs2": "^0.0.x",
     "@stdlib/math-base-special-pow": "^0.0.x",
     "@stdlib/ndarray-array": "^0.0.x",
+    "@stdlib/ndarray-ctor": "^0.0.x",
     "@stdlib/random-base-discrete-uniform": "^0.0.x",
     "@stdlib/utils-nary-function": "^0.0.x",
     "tape": "git+https://github.com/kgryte/tape.git#fix/globby",
