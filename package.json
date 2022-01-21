@@ -42,6 +42,7 @@
     "@stdlib/assert-is-array-like-object": "^0.0.x",
     "@stdlib/assert-is-function": "^0.0.x",
     "@stdlib/assert-is-ndarray-like": "^0.0.x",
+    "@stdlib/ndarray-base-broadcast-array": "^0.0.x",
     "@stdlib/ndarray-base-ndarraylike2object": "^0.0.x",
     "@stdlib/ndarray-base-vind2bind": "^0.0.x",
     "@stdlib/ndarray-zeros": "^0.0.x",
