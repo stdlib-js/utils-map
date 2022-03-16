@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/utils-map",
-  "version": "0.0.1",
+  "version": "0.0.0",
   "description": "Apply a function to each element in an array and assign the result to an element in an output array.",
   "license": "Apache-2.0",
   "author": {
