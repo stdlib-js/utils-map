@@ -1,0 +1,45 @@
+{
+  "name": "@stdlib/utils-map",
+  "version": "0.0.0",
+  "description": "Apply a function to each element in an array and assign the result to an element in an output array.",
+  "license": "Apache-2.0",
+  "type": "module",
+  "main": "./index.mjs",
+  "homepage": "https://stdlib.io",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/stdlib-js/utils-map.git"
+  },
+  "bugs": {
+    "url": "https://github.com/stdlib-js/stdlib/issues"
+  },
+  "keywords": [
+    "stdlib",
+    "stdutils",
+    "stdutil",
+    "utilities",
+    "utility",
+    "utils",
+    "util",
+    "map",
+    "array",
+    "ndarray",
+    "tensor",
+    "matrix",
+    "vector",
+    "elementwise",
+    "element-wise",
+    "transform",
+    "invoke",
+    "call",
+    "apply",
+    "function",
+    "fun",
+    "func",
+    "fcn"
+  ],
+  "funding": {
+    "type": "patreon",
+    "url": "https://www.patreon.com/athan"
+  }
+}
