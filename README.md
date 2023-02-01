@@ -34,38 +34,30 @@ limitations under the License.
 
 <!-- Package usage documentation. -->
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/utils-map
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
+-   If you are using Deno, visit the [`deno` branch][deno-url].
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
-To use in Observable,
-
 ```javascript
-map = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-map@umd/browser.js' )
-```
-
-To vendor stdlib functionality and avoid installing dependency trees for Node.js, you can use the UMD server build:
-
-```javascript
-var map = require( 'path/to/vendor/umd/utils-map/index.js' )
-```
-
-To include the bundle in a webpage,
-
-```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/utils-map@umd/browser.js"></script>
-```
-
-If no recognized module system is present, access bundle contents via the global scope:
-
-```html
-<script type="text/javascript">
-(function () {
-    window.map;
-})();
-</script>
+var map = require( '@stdlib/utils-map' );
 ```
 
 <a name="fcn-map"></a>
@@ -263,14 +255,9 @@ The applied function is provided the same arguments as with [`map`](#fcn-map).
 
 <!-- eslint no-undef: "error" -->
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<body>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/array-filled-by@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/random-base-discrete-uniform@umd/browser.js"></script>
-<script type="text/javascript">
-(function () {.factory;
+```javascript
+var filledarrayBy = require( '@stdlib/array-filled-by' );
+var discreteUniform = require( '@stdlib/random-base-discrete-uniform' ).factory;
 var naryFunction = require( '@stdlib/utils-nary-function' );
 var abs2 = require( '@stdlib/math-base-special-abs2' );
 var array = require( '@stdlib/ndarray-array' );
@@ -298,11 +285,6 @@ console.log( x.data );
 
 console.log( 'y:' );
 console.log( y.data );
-
-})();
-</script>
-</body>
-</html>
 ```
 
 </section>
@@ -351,7 +333,7 @@ See [LICENSE][stdlib-license].
 
 ## Copyright
 
-Copyright &copy; 2016-2022. The Stdlib [Authors][stdlib-authors].
+Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 
 </section>
 
@@ -394,17 +376,17 @@ Copyright &copy; 2016-2022. The Stdlib [Authors][stdlib-authors].
 
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/utils-map/main/LICENSE
 
-[@stdlib/ndarray/ctor]: https://github.com/stdlib-js/stdlib/tree/umd
+[@stdlib/ndarray/ctor]: https://github.com/stdlib-js/stdlib
 
-[@stdlib/ndarray/base/unary]: https://github.com/stdlib-js/stdlib/tree/umd
+[@stdlib/ndarray/base/unary]: https://github.com/stdlib-js/stdlib
 
-[@stdlib/ndarray/base/broadcast-shapes]: https://github.com/stdlib-js/stdlib/tree/umd
+[@stdlib/ndarray/base/broadcast-shapes]: https://github.com/stdlib-js/stdlib
 
-[@stdlib/ndarray/base/assert/is-contiguous]: https://github.com/stdlib-js/stdlib/tree/umd
+[@stdlib/ndarray/base/assert/is-contiguous]: https://github.com/stdlib-js/stdlib
 
-[@stdlib/array/complex64]: https://github.com/stdlib-js/stdlib/tree/umd
+[@stdlib/array/complex64]: https://github.com/stdlib-js/stdlib
 
-[@stdlib/array/complex128]: https://github.com/stdlib-js/stdlib/tree/umd
+[@stdlib/array/complex128]: https://github.com/stdlib-js/stdlib
 
 [mdn-typedarray-map]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/TypedArray/map
 
