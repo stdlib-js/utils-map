@@ -3,31 +3,8 @@
   "version": "0.2.1",
   "description": "Apply a function to each element in an array and assign the result to an element in an output array.",
   "license": "Apache-2.0",
-  "author": {
-    "name": "The Stdlib Authors",
-    "url": "https://github.com/stdlib-js/stdlib/graphs/contributors"
-  },
-  "contributors": [
-    {
-      "name": "The Stdlib Authors",
-      "url": "https://github.com/stdlib-js/stdlib/graphs/contributors"
-    }
-  ],
-  "main": "./lib",
-  "directories": {
-    "benchmark": "./benchmark",
-    "doc": "./docs",
-    "example": "./examples",
-    "lib": "./lib",
-    "test": "./test"
-  },
-  "types": "./docs/types",
-  "scripts": {
-    "test": "make test",
-    "test-cov": "make test-cov",
-    "examples": "make examples",
-    "benchmark": "make benchmark"
-  },
+  "type": "module",
+  "main": "./mod.js",
   "homepage": "https://stdlib.io",
   "repository": {
     "type": "git",
@@ -36,58 +13,6 @@
   "bugs": {
     "url": "https://github.com/stdlib-js/stdlib/issues"
   },
-  "dependencies": {
-    "@stdlib/array-base-arraylike2object": "^0.2.1",
-    "@stdlib/array-base-zeros": "^0.2.1",
-    "@stdlib/assert-is-array-like-object": "^0.2.1",
-    "@stdlib/assert-is-function": "^0.2.1",
-    "@stdlib/assert-is-ndarray-like": "^0.2.1",
-    "@stdlib/ndarray-base-assert-is-read-only": "^0.2.1",
-    "@stdlib/ndarray-base-maybe-broadcast-array": "^0.2.1",
-    "@stdlib/ndarray-base-ndarraylike2object": "^0.2.1",
-    "@stdlib/ndarray-base-vind2bind": "^0.2.1",
-    "@stdlib/ndarray-zeros": "^0.2.1",
-    "@stdlib/error-tools-fmtprodmsg": "^0.2.1",
-    "@stdlib/types": "^0.3.2",
-    "@stdlib/utils-define-nonenumerable-read-only-property": "^0.2.1",
-    "@stdlib/error-tools-fmtprodmsg": "^0.2.1"
-  },
-  "devDependencies": {
-    "@stdlib/array-base-filled": "^0.2.1",
-    "@stdlib/array-complex64": "^0.2.0",
-    "@stdlib/array-filled-by": "^0.2.0",
-    "@stdlib/array-float64": "^0.2.1",
-    "@stdlib/assert-is-array": "^0.2.1",
-    "@stdlib/complex-float32": "^0.2.1",
-    "@stdlib/complex-imagf": "^0.2.1",
-    "@stdlib/complex-realf": "^0.2.1",
-    "@stdlib/math-base-special-abs": "^0.2.1",
-    "@stdlib/math-base-special-abs2": "^0.2.1",
-    "@stdlib/math-base-special-pow": "^0.2.1",
-    "@stdlib/ndarray-array": "^0.2.0",
-    "@stdlib/ndarray-ctor": "^0.2.0",
-    "@stdlib/random-base-discrete-uniform": "^0.2.0",
-    "@stdlib/utils-nary-function": "^0.2.1",
-    "tape": "git+https://github.com/kgryte/tape.git#fix/globby",
-    "istanbul": "^0.4.1",
-    "tap-min": "git+https://github.com/Planeshifter/tap-min.git",
-    "@stdlib/bench-harness": "^0.2.1"
-  },
-  "engines": {
-    "node": ">=0.10.0",
-    "npm": ">2.7.0"
-  },
-  "os": [
-    "aix",
-    "darwin",
-    "freebsd",
-    "linux",
-    "macos",
-    "openbsd",
-    "sunos",
-    "win32",
-    "windows"
-  ],
   "keywords": [
     "stdlib",
     "stdutils",
