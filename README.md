@@ -52,13 +52,18 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import map from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-map@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/utils-map/tags). For example,
+
+```javascript
 import map from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-map@v0.2.1-deno/mod.js';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { assign } from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-map@v0.2.1-deno/mod.js';
+import { assign } from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-map@deno/mod.js';
 ```
 
 <a name="fcn-map"></a>
@@ -262,7 +267,7 @@ var discreteUniform = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/random-bas
 import naryFunction from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-nary-function@deno/mod.js';
 import abs2 from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-abs2@deno/mod.js';
 import array from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-array@deno/mod.js';
-import map from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-map@v0.2.1-deno/mod.js';
+import map from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-map@deno/mod.js';
 
 function fill( i ) {
     var rand = discreteUniform( -10*(i+1), 10*(i+1) );
